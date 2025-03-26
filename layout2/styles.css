@@ -33,15 +33,17 @@
 .caixadaimage {
     width: 100vw;
     display: flex;
-    justify-content: space-around; /* Centraliza com espaço entre as imagens */
-    align-items: center; /* Garante que as imagens fiquem alinhadas verticalmente no centro */
+    justify-content: space-between; /* Garante espaçamento uniforme */
+    align-items: center; /* Mantém alinhamento vertical */
     margin-top: 100px;
+    padding: 0 10vw; /* Adiciona espaçamento lateral */
 }
 
 .caixadaimage img {
-    width: 40vw; /* Ajuste a largura conforme necessário */
-    max-width: 500px; /* Adiciona um limite para o tamanho máximo das imagens */
-    margin: 0 10px; /* Espaço entre as imagens */
+    width: 90vw; /* Define um tamanho fixo para todas as imagens */
+    max-width: 550px; /* Limita o tamanho para não ficarem exageradas */
+    height: auto; /* Mantém a proporção da imagem */
+    
 }
 
 
