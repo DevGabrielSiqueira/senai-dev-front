@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 60px;
+    background-color: #3750b3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+
+.cabecalho .logo {
+    color: white;
+    font-weight: bold;
+    margin-left: 10vw; /* Alinha a logo à esquerda */
+    
+    
+    
+}
+
+.cabecalho nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10vw;
+    margin-left: -100px;
+    
+}
+
+.container {
+    display: flex;
+    align-items: flex-start; /* Alinha o texto no topo */
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    
+}
+
+.caixa-imagem img {
+    width: 600px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.textos {
+    max-width: 500px;
+    margin-left: 10px; /* Move um pouco para a esquerda */
+    margin-top: 30px; /* Ajusta para baixo */
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 310px;
+}
+
+.textos p {
+    font-size: 18px;
+}
