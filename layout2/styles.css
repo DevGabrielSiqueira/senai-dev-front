@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.cabecalho {
+    width: 100vw;
+    height: 71px;
+    background-color: #3750b3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho p {
+    color: white;
+    margin-right: 20px;
+}
+
+.left {
+    margin-left: 10vw;
+}
+
+.right {
+    display: flex;
+    margin-right: 10vw;
+}
+
+.caixadaimage {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around; /* Centraliza com espaço entre as imagens */
+    align-items: center; /* Garante que as imagens fiquem alinhadas verticalmente no centro */
+    margin-top: 100px;
+}
+
+.caixadaimage img {
+    width: 40vw; /* Ajuste a largura conforme necessário */
+    max-width: 500px; /* Adiciona um limite para o tamanho máximo das imagens */
+    margin: 0 10px; /* Espaço entre as imagens */
+}
+
+
+
+.textos {
+    margin-left: 10vw;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: normal;
+}
+
+.textos p {
+    font-size: 18px; /* Adicionei um valor padrão */
+}
